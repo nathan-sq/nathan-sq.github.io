@@ -1,0 +1,71 @@
+.nav a{
+	color: #5a5a5a;
+	font-size: 11px;
+	font-weight: bold;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-transform: uppercase;
+}
+
+.nav li{
+	display: inline;
+}
+
+.jumbotron{
+	background-image: url('https://ap.imagensbrasil.org/images/main_1.png');
+	height: 500px;
+}
+
+.jumbotron .container{
+	position: relative;
+	top: 100px;
+}
+
+.jumbotron h1{
+	color: #fff;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.jumbotron p{
+	font-size: 20px;
+	color: #fff;
+}
+
+.guia-apresentacao{
+    background-color: #212121;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.guia-apresentacao h2{
+    color: #393c3d;
+    font-size: 24px;
+}
+
+.guia-apresentacao p{
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+.learn-more{
+	background-color: #f7f7f7;
+}
+
+.learn-more h3{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.learn-more a{
+	color: #ff6c00;
+}
+
+img:hover{
+-webkit-filter: brightness(0.5);
+-moz-filter: brightness(0.5);
+-o-filter: brightness(0.5);
+-ms-filter: brightness(0.5);
+filter: brightness(0.5);
+}
