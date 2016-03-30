@@ -39,16 +39,29 @@
     border-bottom: 1px solid #dbdbdb;
 }
 
+.guia-apresentacao a{
+	color:#fff;
+	font-size: 15px;
+	padding: 0px;
+	margin: 0px;
+}
 .guia-apresentacao h2{
-    color: #393c3d;
+    color: #fff;
     font-size: 24px;
 }
 
 .guia-apresentacao p{
+   	color:#ff6c00;
     font-size: 15px;
     margin-bottom: 13px;
+    padding: 0px;
 }
-
+.guia-apresentacao span{
+	color:#ff6c00;
+	font-size: 18px;
+	margin: 0px;
+	padding: 0px 0px 0px 10px;
+}
 .learn-more{
 	background-color: #f7f7f7;
 }
@@ -68,4 +81,11 @@ img:hover{
 -o-filter: brightness(0.5);
 -ms-filter: brightness(0.5);
 filter: brightness(0.5);
+}
+
+ img:hover span{
+border: 1px solid f00;
+opacity:1;
+-moz-opacity:1;
+filter:alpha(opacity=50);
 }
